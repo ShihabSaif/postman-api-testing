@@ -1,0 +1,60 @@
+{
+	"id": "3efb3823-9990-458a-ab4b-2e2e7dd27a68",
+	"name": "postman API testing",
+	"timestamp": "2022-03-21T08:35:41.689Z",
+	"collection_id": "0-3ac84f02-ca8e-45a4-aded-6645821c4973",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d1a72bd5-d4c1-418e-873c-ca7fc179552a",
+			"name": "TC006",
+			"time": 356,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				372,
+				362,
+				356,
+				356
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 1446,
+	"collection": {
+		"requests": [
+			{
+				"id": "d1a72bd5-d4c1-418e-873c-ca7fc179552a",
+				"method": "POST"
+			}
+		]
+	}
+}
